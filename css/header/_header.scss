@@ -1,0 +1,47 @@
+  // Header Styles
+  header {
+  padding: 25px 0 25px;
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 0 0 rgba(0,0,0,.40);
+  box-shadow: 1px 1px 0 0 rgba(0,0,0,.40);
+  }
+
+  nav {
+  ul{
+  line-height: 44px;
+  }
+  li{
+  margin:0 30px;
+  display:inline-block;
+  }
+  a{
+  color: $color-nav;
+  text-transform: uppercase;
+  text-decoration:none;
+  font-size: $font-size-secondary;
+  font-family:$font-family-primary;
+  font-weight:500;
+  }
+  i.fa-chevron-down{
+      font-size: 10px;
+    font-weight: 500;
+    top: -1px;
+    position: relative;
+    left: 3px;
+  }
+
+  }
+
+  .social{
+      padding: 15px 0px;
+  a {  
+  display: inline-block;
+  text-align: center;
+  color: $color-icons;
+  font-size: 14px;
+  font-weight: normal;
+  margin:0 8px;
+  }
+  }
+
+.fa:hover{ color:$color-primary;}

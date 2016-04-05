@@ -1,0 +1,41 @@
+//******************Footer*********************
+footer{ 
+padding: 47px 0 73px;
+background: #fff;
+text-align: center;
+.social{
+margin-bottom:20px;
+}
+p{
+color: $color-footer;
+font-size: 13px;
+font-weight:normal;
+font-family:$font-family-book;
+}
+}
+.links{
+li{
+display: inline-block;
+border-right: 1px solid #333;
+margin-right: 8x;
+padding-right: 8px;
+line-height: 13px;
+margin-bottom:15px;
+:last-child{
+margin-right:0;
+padding-right:0;
+}
+a {  
+display: block;
+color: $color-footer;
+font-size: 14px;
+line-height:11px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration:none;
+font-family:$font-family-primary;
+}
+
+} 
+
+}

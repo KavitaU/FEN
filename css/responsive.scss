@@ -1,0 +1,22 @@
+//******************** Responsive ***************************
+
+
+@media (max-width:1200px){
+.wrapper{width:1170px;}
+}
+
+@media (max-width:1024px){
+nav li {
+    margin: 0 15px;
+    
+}
+#fact-monster {
+   
+    -webkit-clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%);
+}
+}
+
+@media (max-width:768px){
+.wrapper{width:750px;}
+}

@@ -1,0 +1,237 @@
+// Home Styles
+
+#header{
+float:left;
+width:100%;
+height:94px;
+position:fixed;
+z-index:99;
+}
+#banner{
+float:left;
+width:100%;
+height:100px;
+overflow:hidden;
+margin-top:94px;
+position:relative;
+img{
+width: 100% !important;
+height:100vh;
+object-fit: cover !important;
+}
+.scroll-up{
+position:absolute;
+width:104px;
+height:104px;
+right:0;
+left:0;
+margin:0 auto;
+bottom: -52px;
+display:block;
+z-index:9;
+background:url(../images/scroll-up-icon.png) no-repeat left top;
+
+}
+.scroll-up:hover{
+background-position: left bottom;
+
+}
+}
+
+#wrapper{
+float:left;
+width:100%;
+}
+
+// Brands Logo Styles
+.brands{
+width:100%;
+background:#f8f8f8;
+padding:50px 0 70px;
+position:relative;
+clear:both;
+
+}
+.white-box{
+background:#ffffff;
+-webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.10);
+box-shadow: 0 0 25px 0 rgba(0,0,0,.10);
+padding:0 25px;
+position:relative;
+height:100px;
+img{
+position:absolute;
+left:0;
+right:0;
+top:0;
+bottom:0;
+margin:auto;
+}
+}  
+
+
+.title{
+font-size:$font-size-title;
+line-height:24px;
+color:$color-primary;
+text-transform:$uppercase;
+margin-bottom:30px;
+font-weight:500;
+font-family:$font-family-primary;
+}
+
+.heading{
+font-size:$font-size-heading;
+line-height:28px;
+color:$color-primary;
+margin-bottom:25px;
+font-weight:700;
+font-style: italic;
+font-family:$font-family-secondary;
+}
+
+.tagline{
+font-size:$font-size-tagline;
+color:$color-primary;
+margin-bottom:100px;
+text-transform: capitalize;
+font-family:$font-family-primary;
+font-weight:100;
+}
+
+p{
+font-size:$font-size-primary;
+line-height:30px;
+color:$color-secondary;
+margin-bottom:22px;
+font-family:$font-family-book;
+font-weight:normal;
+}
+
+.more-btn{
+font-size:$font-size-primary;
+line-height:27px;
+color:$color-secondary;
+text-transform:$uppercase;
+font-weight:500;
+font-family:$font-family-primary;
+text-decoration: none;
+.fa{
+width: 27px;
+height: 27px;
+border-radius: 50%;
+background: $color-red-light;
+color: $white;
+text-align: center;
+line-height: 27px;
+margin-right: 10px;
+
+}
+}
+
+
+.light-red {
+.title{
+color:$color-red-light;
+}
+.more-btn{
+color:$color-red-light;
+.fa{
+background: $color-red-light;
+color: $white;
+}
+}
+}
+
+.green {
+.title{
+color:$color-green;
+}
+.more-btn{
+color:$color-green;
+.fa{
+background: $color-green;
+color: $white;
+}
+}
+}
+
+.red {
+.title{
+color:$color-red;
+}
+.more-btn{
+color:$color-red;
+.fa{
+background: $color-red;;
+color: #fff;
+}
+}
+}
+
+.purple {
+.title{
+color:$color-purple;
+}
+.more-btn{
+color:$color-purple;
+.fa{
+background: $color-purple;;
+color: #fff;
+}
+}
+}
+
+.box{background:#ffffff;
+-webkit-box-shadow: 0 0 70px 0 rgba(0,0,0,.10);
+box-shadow: 0 0 70px 0 rgba(0,0,0,.10);
+padding:50px 60px 90px 50px;
+}
+
+#family-education{
+background: url(../images/bg-family-education.jpg) no-repeat top center;
+background-size: contain;
+padding:120px 0 140px;
+-webkit-clip-path: polygon(0 0%, 0 100%, 100% 100%, 100% 0%);
+clip-path: polygon(0 0%, 0 100%, 100% 100%, 100% 0%);
+
+}
+
+#fact-monster{
+background: url(../images/bg-fact-monster.jpg) no-repeat top center;
+background-size: 100% auto;
+padding:154px 0 250px;
+margin-top: -65px;
+-webkit-clip-path: polygon(0% 23%, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0% 23%, 100% 0%, 100% 100%, 0% 100%);
+.box{
+position:relative;
+.cube{
+background: url(../images/cube.png) no-repeat 0 0;
+width:188px;
+height:187px;
+position:absolute;
+right: -4%;
+bottom: -27%;
+}
+}
+
+}
+
+#teacher-vision{
+background: url(../images/bg-teacher-vision.jpg) no-repeat top center;
+background-size: 100% auto;
+padding: 305px 0 253px;
+margin-top: -153px;
+
+-webkit-clip-path: polygon(0% 13%, 100% 0%, 100% 85%, 0% 100%);
+clip-path: polygon(0% 13%, 100% 0%, 100% 85%, 0% 100%);
+
+}
+
+#info-please{
+background: url(../images/bg-infoplease.jpg) no-repeat top center;
+background-size: 100% auto;
+padding: 250px 0 125px;
+margin-top: -133px;
+}
